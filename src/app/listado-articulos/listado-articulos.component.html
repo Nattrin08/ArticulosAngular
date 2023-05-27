@@ -1,0 +1,11 @@
+<table border="1">
+    <tr class="categories">
+        <td>Name</td><td>Type</td><td>Artist</td><td>Year</td>
+    </tr>
+    <tr *ngFor="let Lista of favorito" class="elements">
+        <td>{{Lista.name}}</td>
+        <td>{{Lista.type}}</td>
+        <td>{{Lista.artist}}</td>
+        <td>{{Lista.year}}</td>
+    </tr>
+</table>
